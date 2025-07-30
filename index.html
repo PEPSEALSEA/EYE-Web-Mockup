@@ -13,7 +13,7 @@
 
         body {
             font-family: 'Comic Sans MS', cursive, sans-serif;
-            background: linear-gradient(135deg, #87CEEB 0%, #FFB6C1 50%, #98FB98 100%);
+            background: linear-gradient(135deg, #E8F4FD 0%, #F0F8FF 30%, #E6F3FF 70%, #D4EDDA 100%);
             min-height: 100vh;
             overflow-x: hidden;
         }
@@ -32,16 +32,16 @@
 
         .logo {
             font-size: 3.5rem;
-            color: #FF6B6B;
-            text-shadow: 3px 3px 0px #FFD93D;
+            color: #2E8B57;
+            text-shadow: 2px 2px 0px #87CEEB;
             margin-bottom: 10px;
         }
 
         .tagline {
             font-size: 1.3rem;
-            color: #4ECDC4;
+            color: #4682B4;
             font-weight: bold;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
         }
 
         .main-content {
@@ -53,15 +53,15 @@
         }
 
         .hero-text {
-            background: rgba(255, 255, 255, 0.9);
+            background: rgba(255, 255, 255, 0.95);
             padding: 30px;
             border-radius: 25px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-            border: 4px solid #FFD93D;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            border: 3px solid #87CEEB;
         }
 
         .hero-text h2 {
-            color: #FF6B6B;
+            color: #2E8B57;
             font-size: 2rem;
             margin-bottom: 20px;
             text-align: center;
@@ -75,11 +75,11 @@
         }
 
         .stats {
-            background: #FFE4E1;
+            background: #E6F3FF;
             padding: 15px;
             border-radius: 15px;
             margin: 20px 0;
-            border-left: 5px solid #FF6B6B;
+            border-left: 5px solid #4682B4;
         }
 
         .play-area {
@@ -94,7 +94,7 @@
             border-radius: 50%;
             margin: 0 auto 20px;
             position: relative;
-            box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+            box-shadow: 0 10px 25px rgba(70, 130, 180, 0.2);
             animation: eyeBlink 3s infinite;
             cursor: pointer;
             transition: transform 0.3s ease;
@@ -107,7 +107,7 @@
         .eye {
             width: 60px;
             height: 60px;
-            background: #4ECDC4;
+            background: #87CEEB;
             border-radius: 50%;
             position: absolute;
             top: 60px;
@@ -136,7 +136,7 @@
         .mouth {
             width: 80px;
             height: 40px;
-            border: 5px solid #FF6B6B;
+            border: 5px solid #4682B4;
             border-top: none;
             border-radius: 0 0 80px 80px;
             position: absolute;
@@ -146,22 +146,23 @@
         }
 
         .start-btn {
-            background: linear-gradient(45deg, #FF6B6B, #FFD93D);
+            background: linear-gradient(45deg, #4682B4, #87CEEB);
             color: white;
             font-size: 1.5rem;
             padding: 15px 40px;
             border: none;
             border-radius: 50px;
             cursor: pointer;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            box-shadow: 0 6px 15px rgba(70, 130, 180, 0.3);
             transition: all 0.3s ease;
             font-weight: bold;
             text-transform: uppercase;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
         }
 
         .start-btn:hover {
             transform: translateY(-3px);
-            box-shadow: 0 12px 25px rgba(0,0,0,0.4);
+            box-shadow: 0 8px 20px rgba(70, 130, 180, 0.4);
         }
 
         .features {
@@ -176,8 +177,8 @@
             padding: 25px;
             border-radius: 20px;
             text-align: center;
-            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
-            border: 3px solid;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+            border: 2px solid;
             transition: transform 0.3s ease;
         }
 
@@ -186,15 +187,15 @@
         }
 
         .feature-card:nth-child(1) {
-            border-color: #FF6B6B;
+            border-color: #4682B4;
         }
 
         .feature-card:nth-child(2) {
-            border-color: #4ECDC4;
+            border-color: #2E8B57;
         }
 
         .feature-card:nth-child(3) {
-            border-color: #FFD93D;
+            border-color: #87CEEB;
         }
 
         .feature-icon {
@@ -218,7 +219,7 @@
             padding: 40px;
             border-radius: 25px;
             margin-bottom: 40px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
         }
 
         .games-grid {
@@ -229,18 +230,19 @@
         }
 
         .game-card {
-            background: linear-gradient(135deg, #FFE4E1, #E0F6FF);
+            background: linear-gradient(135deg, #F0F8FF, #E6F3FF);
             padding: 20px;
             border-radius: 15px;
             text-align: center;
             cursor: pointer;
             transition: all 0.3s ease;
-            border: 3px solid transparent;
+            border: 2px solid transparent;
         }
 
         .game-card:hover {
             transform: scale(1.05);
-            border-color: #FF6B6B;
+            border-color: #4682B4;
+            box-shadow: 0 5px 15px rgba(70, 130, 180, 0.3);
         }
 
         .footer {
@@ -252,13 +254,13 @@
         }
 
         .footer h3 {
-            color: #FF6B6B;
+            color: #2E8B57;
             font-size: 1.5rem;
             margin-bottom: 10px;
         }
 
         .footer p {
-            color: #4ECDC4;
+            color: #4682B4;
             font-size: 1.1rem;
             font-style: italic;
         }
@@ -277,7 +279,7 @@
             position: absolute;
             width: 30px;
             height: 30px;
-            background: #4ECDC4;
+            background: #87CEEB;
             border-radius: 50%;
             animation: float 6s infinite ease-in-out;
         }
@@ -441,7 +443,7 @@
         </section>
 
         <section class="games-section">
-            <h2 style="text-align: center; color: #FF6B6B; font-size: 2rem; margin-bottom: 10px;">🎯 เกมสำหรับดวงตา</h2>
+            <h2 style="text-align: center; color: #2E8B57; font-size: 2rem; margin-bottom: 10px;">🎯 เกมสำหรับดวงตา</h2>
             <p style="text-align: center; color: #666; margin-bottom: 20px;">เลือกเกมที่ชิอบและเริ่มบริหารดวงตากันเลย!</p>
             
             <div class="games-grid">
@@ -507,15 +509,15 @@
                     max-width: 500px;
                     margin: 20px;
                     box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-                    border: 4px solid #FFD93D;
+                    border: 4px solid #87CEEB;
                 ">
-                    <h2 style="color: #FF6B6B; margin-bottom: 20px; font-size: 1.8rem;">🎉 ยินดีต้อนรับสู่ตาลาล้า! 🎉</h2>
+                    <h2 style="color: #2E8B57; margin-bottom: 20px; font-size: 1.8rem;">🎉 ยินดีต้อนรับสู่ตาลาล้า! 🎉</h2>
                     <p style="color: #333; font-size: 1.1rem; margin-bottom: 20px;">
                         พร้อมดูแลดวงตาไปด้วยกันแล้วหรือยัง?<br>
                         เรามาเริ่มต้นการผจญภัยเพื่อสายตาที่แข็งแรงกันเลย!
                     </p>
                     <button onclick="closeModal()" style="
-                        background: linear-gradient(45deg, #4ECDC4, #44A08D);
+                        background: linear-gradient(45deg, #4682B4, #87CEEB);
                         color: white;
                         border: none;
                         padding: 12px 30px;
@@ -523,6 +525,7 @@
                         font-size: 1.1rem;
                         cursor: pointer;
                         font-weight: bold;
+                        font-family: 'Comic Sans MS', cursive, sans-serif;
                     ">เริ่มเลย! 🚀</button>
                 </div>
             `;
